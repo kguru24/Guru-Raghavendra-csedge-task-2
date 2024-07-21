@@ -92,7 +92,7 @@ public class Texteditor extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                TextEditor editor = new TextEditor();
+                Texteditor editor = new Texteditor();
                 editor.setVisible(true);
             }
         });
